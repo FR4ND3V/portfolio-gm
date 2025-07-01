@@ -1,0 +1,23 @@
+.navbar {
+  width: 100%;
+  padding: 1rem;
+  background: #222;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar-logo {
+  font-weight: bold;
+}
+
+.navbar-links a {
+  color: #fff;
+  margin-right: 1rem;
+  text-decoration: none;
+}
+
+.navbar-links a:last-child {
+  margin-right: 0;
+}
